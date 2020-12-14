@@ -1,0 +1,20 @@
+{
+  "name": "markdownblog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "gray-matter": "^4.0.2",
+    "materialize-css": "^1.0.0-rc.2",
+    "next": "10.0.3",
+    "raw-loader": "^4.0.2",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-markdown": "^5.0.3"
+  }
+}
