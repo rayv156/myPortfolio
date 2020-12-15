@@ -43,7 +43,7 @@ const Index = () => {
       </p>
       </div>
 
-      <h3 id="skills" style={{backgroundColor: '#EEFBFB'}}>Skills</h3>
+      <h3 id="skills" style={{backgroundColor: '#EEFBFB', color: `#203647`}}>Skills</h3>
       <div style={{width: '100%', display: 'flex', justifyContent: 'center', margin: 'auto', flexWrap: 'wrap', backgroundColor: '#EEFBFB', paddingBottom: 70}}>
         <img style={imgStyle} src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/480px-JavaScript-logo.png"/>
         <img style={imgStyle} src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1024px-Ruby_logo.svg.png"/>

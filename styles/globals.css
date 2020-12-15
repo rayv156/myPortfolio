@@ -4,7 +4,23 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    text-align: center;
+  text-align: center;
+}
+
+.blog-post:hover {
+  box-shadow: 5px 5px 20px gray
+}
+
+.mdbody {
+  width: 700px;
+  text-align: justify;
+  margin: auto;
+}
+.mdbody > p > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .footer {
@@ -53,7 +69,7 @@ a:hover {
 
 .profilepic {
   width: 600px;
-  padding-top: 90px
+  padding-top: 30px;
 }
 
 .aboutme {
@@ -94,7 +110,7 @@ a:hover {
 
 
 @media only screen and (max-width: 650px){
-  .profilepic, .aboutme-title, .aboutme-p {
+  .profilepic, .aboutme-title, .aboutme-p, .mdbody, .mdbody > p > img{
   width: 350px;
   
 }

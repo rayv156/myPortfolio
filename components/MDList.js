@@ -4,17 +4,17 @@ export default function MDList({ posts }) {
   if (posts === "undefined") return null;
 
   return (
-    <div>
+    <div >
       {!posts && <div>No posts!</div>}
       <ul>
         {posts &&
           posts.map((post) => {
             return (
-              <li key={post.slug}>
+              <h6 className="blog-post" style={{padding: 15}} key={post.slug}>
                 <Link href={{ pathname: `/mark/${post.slug}` }}>
                   <a>{post.frontmatter.title}</a>
                 </Link>
-              </li>
+              </h6>
             );
           })}
       </ul>

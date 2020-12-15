@@ -49,7 +49,7 @@ const myProjects = [
 const Projects = ({allMD}) => {
 
   return (<Layout>
-    <div style={{display: 'flex', flexWrap: 'wrap', margin: 'auto', justifyContent: 'center', alignItems: 'center', paddingTop: 70, paddingBottom: 70, backgroundColor: 'rgb(26,46,60)'}}>
+    <div style={{display: 'flex', flexWrap: 'wrap', margin: 'auto', justifyContent: 'center', alignItems: 'center', backgroundColor: 'rgb(26,46,60)'}}>
     {myProjects.map((item)=>{
 
 return (
@@ -58,7 +58,7 @@ return (
      <div className="card-image" >
       <img className="center-block" src={item.img1} style={{width: '350px', height: '500px'}} alt=""/>
 </div>
-      <div className="card-content"><h6>{item.name}</h6></div>
+      <div className="card-content" style={{color: 'black'}}><h6>{item.name}</h6></div>
     <div className="card-action" style={{display: 'flex', width: '100%', justifyContent: 'space-between'}}>
 <a href={item.git}><ion-icon name="logo-github" style={{fontSize: 50}}></ion-icon></a>
 <a href={item.live}><ion-icon name="globe-outline" style={{fontSize: 50}}></ion-icon></a>

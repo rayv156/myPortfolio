@@ -21,7 +21,7 @@ export default function Layout({ children, pageTitle, ...props }) {
 
       </Head>
       <Header />
-      <main className="layout">{children}</main>
+      <main style={{backgroundColor: '#203647', paddingBottom: 50, margin: 'auto', paddingTop: 70, color: 'white'}} className="layout">{children}</main>
       
       <Footer />
     </>

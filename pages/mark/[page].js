@@ -9,13 +9,13 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
 
   return (
       <Layout pageTitle={`${siteTitle} | ${frontmatter.title}`}>
-        <Link href="/">
-          <a>Back to post list</a>
+        <Link href="/blog">
+          <a><ion-icon name="arrow-back-circle-outline" style={{fontSize: '15px'}}></ion-icon> Back to post list</a>
         </Link>
         <article>
           <h1>{frontmatter.title}</h1>
           <p>By {frontmatter.author}</p>
-          <div>
+          <div className="mdbody" >
             <ReactMarkdown source={markdownBody} />
           </div>
         </article>

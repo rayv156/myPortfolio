@@ -8,9 +8,12 @@ import ReactMarkdown from 'react-markdown'
 const Blog = ({allMD}) => {
 
   return (<Layout>
-    <h1>Hello World</h1>
+    <div>
+    <h3 >My Blog</h3>
+    <p>Mostly related to software development but mixed in with some helpful info about my other hobbies</p>
    
-    <MDList posts={allMD}/>
+    <MDList posts={allMD} />
+    </div>
   </Layout>)
 }
 
