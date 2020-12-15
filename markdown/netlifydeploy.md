@@ -7,7 +7,7 @@ Why not let my first software development related blog post be about my struggle
 
 ***
 
-- ##### Add `"export": "next export"`
+- ##### Add `"export": "next export"` to your package.json
 
 ![Imgur](https://i.imgur.com/K7aypWu.png)
 
@@ -26,7 +26,7 @@ This is particularly for situations where you are not using any server-side data
 
 ***
 
-- ##### Configure your deployment settings:
+- ##### Configure your deployment settings in Netlify:
 
 ![Imgur](https://i.imgur.com/eT86gtE.png)
 
