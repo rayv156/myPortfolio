@@ -74,7 +74,9 @@ a:hover {
 .aboutme-p {
   width: 550px; 
   color: white; 
-  background-color: rgb(26,46,60, 0.8)
+  background-color: rgb(26,46,60, 0.8);
+  font-size: 20px;
+  text-align: justify;
 }
 
 
