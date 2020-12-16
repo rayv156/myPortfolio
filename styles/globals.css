@@ -7,8 +7,18 @@ body {
   text-align: center;
 }
 
-.blog-post:hover {
+.blog-post {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+  background-color: white;
+  color: #203647;
   box-shadow: 5px 5px 20px gray
+}
+.blog-post:hover {
+  background-color: #203647;
+  color: white;
 }
 
 .mdbody {
