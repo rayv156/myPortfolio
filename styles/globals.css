@@ -78,7 +78,7 @@ a:hover {
 }
 
 .profilepic {
-  width: 600px;
+  width: 500px;
   padding-top: 30px;
 }
 
@@ -125,6 +125,15 @@ a:hover {
   
 }
 
+.aboutme {
+  height: 700px
+}
+
+.aboutme-p {
+  
+  font-size: 17px;
+  
+}
 .footer {
   position: fixed;
   left: 0; 

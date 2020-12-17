@@ -21,8 +21,7 @@ const Header = () => {
             </nav>
 
             <ul className="sidenav" id="mobile" style={{backgroundImage: 'url("https://i.imgur.com/25FpjT4.png")', backgroundPosition: 'center'}}>
-                <li><a href="#skills" style={{textDecoration: 'none', color: 'black'}}><div >Skills</div></a></li>
-                <li><a className="navbar-brand" href="/resume" style={{color: 'black'}}><div >Resume</div></a></li>
+                <li><a href="/#skills" style={{textDecoration: 'none', color: 'black'}}><div >Skills</div></a></li>
                     <li><a href="/projects" style={{textDecoration: 'none', color: 'black'}}><div >Projects</div></a></li>
                     <li><a href="/blog" style={{textDecoration: 'none', color: 'black'}}><div>Blog</div></a></li>
                 </ul>
