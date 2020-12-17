@@ -20,10 +20,14 @@ const Header = () => {
             </div>
             </nav>
 
-            <ul className="sidenav" id="mobile" style={{backgroundImage: 'url("https://i.imgur.com/25FpjT4.png")', backgroundPosition: 'center'}}>
-                <li><a href="/#skills" style={{textDecoration: 'none', color: 'black'}}><div >Skills</div></a></li>
-                    <li><a href="/projects" style={{textDecoration: 'none', color: 'black'}}><div >Projects</div></a></li>
-                    <li><a href="/blog" style={{textDecoration: 'none', color: 'black'}}><div>Blog</div></a></li>
+            <ul className="sidenav" id="mobile" style={{backgroundColor: '#203647'}}>
+                <hr></hr>
+                <li><a href="/#skills" style={{textDecoration: 'none', color: 'black', backgroundColor: 'rgb(256,256,256, 0.3'}}><div >Skills</div></a></li>
+                <hr></hr>
+                    <li><a href="/projects" style={{textDecoration: 'none', color: 'black', backgroundColor: 'rgb(256,256,256, 0.3'}}><div >Projects</div></a></li>
+                    <hr></hr>
+                    <li><a href="/blog" style={{textDecoration: 'none', color: 'black', backgroundColor: 'rgb(256,256,256, 0.3'}}><div>Blog</div></a></li>
+                    <hr></hr>
                 </ul>
 
         </header>
