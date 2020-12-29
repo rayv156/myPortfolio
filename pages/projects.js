@@ -7,6 +7,13 @@ import ReactMarkdown from 'react-markdown'
 
 const myProjects = [
   {
+    name: "RecipE-book",
+    git: "https://github.com/rayv156/recipe_book_client",
+    live: "https://expo.io/@rayv156/projects/recipe_book_client",
+    description: "A mobile app to search and save favorite recipes.  The app was uses a Rails backend and React Native in the frontend.  The user credentials use bcrypt, jwt and secure store.  Checkout the github repository for more details!",
+    img1: "https://i.imgur.com/oqv8LQl.png"
+  },
+  {
     name: "Workout Log",
     git: "https://github.com/rayv156/workouts_client_frontend",
     live: "https://naughty-yalow-c5e710.netlify.app/",
