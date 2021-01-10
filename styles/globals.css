@@ -33,6 +33,14 @@ body {
 
 }
 
+pre {
+  overflow-x: auto;
+  white-space: pre-wrap;
+  display: inline-block;
+  background-color: white;
+  color: #203647;
+}
+
 .footer {
   
   width: 102%; 
@@ -120,9 +128,13 @@ a:hover {
 
 
 @media only screen and (max-width: 650px){
-  .profilepic, .aboutme-title, .aboutme-p, .mdbody, .mdbody > p > img{
+  .profilepic, .aboutme-title, .aboutme-p, .mdbody, .mdbody > p > img {
   width: 350px;
   
+}
+
+pre {
+  width: 350px;
 }
 
 .aboutme {
