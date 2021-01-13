@@ -41,8 +41,9 @@ All this is doing is accepting the length of my array as an object (I had to add
 
 I'm first declaring `c` as a variable then running a ternary operator to define `c` as my array starting point depending on which value is smaller between a and b.
 
+***
 
-- ##### Time to sum them up
+- ##### - Time to sum them up
 
         const total = numberArr.reduce((total, item) => {
             return total += item}, 0)
