@@ -15,6 +15,7 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
         <article>
           <h3>{frontmatter.title}</h3>
           <p>By {frontmatter.author}</p>
+          <p>{frontmatter.date}</p>
           <div className="mdbody" >
             <ReactMarkdown source={markdownBody} />
           </div>

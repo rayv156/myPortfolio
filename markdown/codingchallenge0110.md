@@ -1,6 +1,7 @@
 ---
 title: 'Codewars - Decode the Morse Code'
 author: 'Ray Velasquez'
+date: '01-10-2021'
 ---
 
 The last few days I've been working through some Open ID Connect authentication layers in Django.  I'm not too familiar with Django just yet but have learned alot and still in the process of figuring out whether I like it better than Rails or not.  Annnnd that's not what this post is about.  I decided to take a break from that and try out a Codewar challenge called Decode the Morse code.  Here's what was going through my brain while I was working through it.

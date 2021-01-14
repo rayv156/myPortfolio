@@ -1,6 +1,7 @@
 ---
 title: 'Codewars - Beginner Series #3 Sum of Numbers'
 author: 'Ray Velasquez'
+date: '01-12-2021'
 ---
 
 I'll start off by saying I'm not very proud of this one.  It didn't take long but I definitely over thought it.  Should've been A => B but I took a wandering path instead.
