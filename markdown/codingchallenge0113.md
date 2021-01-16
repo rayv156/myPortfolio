@@ -11,7 +11,7 @@ Late post but knocked out 4 challenges a few days ago in Ruby and JavaScript.  I
 
 - ##### - Getting Right Into It 
 
-Some of these were quite simple but it was cool to take a look at some of the other solutions once I was done to see how I could improve.  I won't go step by step as I have in some of my other posts but I'll just walk through the highlight of the challenges.
+Some of these were quite simple but it was cool to take a look at some of the other solutions once I was done to see how I could improve.  I won't go step by step as I have in some of my other posts but I'll just walk through the highlights of the challenges.
 
 ***
 
@@ -74,7 +74,7 @@ Apparently Jaden Smith has an interesting way of typing out his tweets where he 
 
 ***
 
-- ##### - Sum of Digits/Digital Root
+- ##### - Sum of Digits/Digital Root (Ruby)
 
         def digital_root(n)
             sum = nil
