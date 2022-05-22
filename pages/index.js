@@ -86,7 +86,7 @@ const Index = () => {
     <div className="aboutme">
       <h3 className="aboutme-title">About Me</h3>
       <p className="aboutme-p"> 
-      I am a software engineer with a background in customer facing engineering roles.  I have experience with high-traffic, industry critical web pages that require extensive compliance-oriented design and unique customer requirements.  I have quickly adapted to software development and have applied my past professional experience to develop applications which allows clients to perform daily tasks at optimum efficiencies.
+      I am a software engineer with a background in customer facing engineering roles.  I have experience with high-traffic, industry critical web pages that require extensive compliance-oriented design and unique customer requirements.  I have quickly adapted to software development and have applied my past professional experience to develop applications which allow clients to perform daily tasks at optimum efficiencies.
       <br/><br/>  
       These days, when I'm not diving into a new framework or language, I'm spending some time with the family, playing golf, dabbling in some beginner woodwork, or singing and playing the guitar.  I have two loving and goofy kids and a beautiful wife that has supported me throughout this journey.
       </p>
